@@ -14,7 +14,7 @@ This activity was very challenging. AT the time I submitted the homework, I coul
 
 
 #### Usage
-![Homework-Ddemo](assets/images/04-web-apis-homework-demo.png)
+![Homework-Ddemo](assets/images/04-web-apis-homework-demo.gif)
 
 
 ##### Link
