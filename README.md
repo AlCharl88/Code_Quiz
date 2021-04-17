@@ -14,11 +14,11 @@ This activity was very challenging. AT the time I submitted the homework, I coul
 
 
 #### Usage
-![Homework-Ddemo](assets/images/04-web-apis-homework-demo.gif)
+![Homework-Ddemo](Assets/images/04-web-apis-homework-demo.gif)
 
 
 ##### Link
-
+https://alcharl88.github.io/Code_Quiz/
 
 ###### Credit
 Alain Tagne
