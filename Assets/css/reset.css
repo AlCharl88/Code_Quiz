@@ -1,0 +1,8 @@
+html, body {
+    background-color: rgb(215, 193, 221);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: lightseagreen;
+    padding: 20px;

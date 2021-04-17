@@ -1,4 +1,5 @@
 // define variables
+
 var startBtn = document.getElementById("startBtn");
 var submitBtn = document.querySelector("#submitBtn")
 var secondsLeft = (questions.length * 15 + 1);
