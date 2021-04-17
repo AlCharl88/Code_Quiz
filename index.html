@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code_Quiz_JavaSchript_Fondamentals</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <a href="highscores.html">View High Scores</a>
+        <span id="timer" class="float-right">Time: 0</span>
+    </header>
+    <main>
+        <!--welcome screen-->
+        <div class="box" id="welcome">
+            <h1 class="title1">Welcome to the Javascript Challenge</h1> <br>
+            <p class="cont">This is a 2 minute (120 secondes) mini quiz on Javascript fondamentals. <br>
+                Once you start, you wil be presented with a series of questions and the <br> clock will start counting
+                down. <br>
+                If an answer is incorrect, 10s will be substracted from the clock. <br>
+                <strong>have fun!</strong>
+            </p>
+            <button type="button" id="startBtn" class="btn1">START</button>
+        </div>
+        <!-- Questions and Answer -->
+        <div class="box1" id="quiz">
+            <h2 id="questions"></h2>
+            <ul id="answers" class="list-unstyled">
+            </ul>
+            <p class="feedback"></p>
+        </div>
+
+        <!-- End of Quiz -->
+        <div class="box2" id="submit-score">
+            <p id="user-score"></p>
+            <form class="form-group">
+                <label for="new-score">Enter your name: </label>
+                <input type="text" id="userName">
+                <button type="button" id="submitBtn" class="btn2">Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
