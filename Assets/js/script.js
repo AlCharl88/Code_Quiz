@@ -13,10 +13,14 @@ var answerChoices = document.getElementById("answers");
 var questionNumber = -1;
 var answer;
 
+document.querySelector(".form-group").style.display= "none";
+
 function startTimer() {
     // swap welcome with quiz divisions
     document.getElementById("welcome").style.display = "none";
     document.getElementById("quiz").style.display = "show";
+    
+    
 
 
     // timer set and begins 120s countdown
@@ -58,7 +62,7 @@ function makeQuestions() {
 // display option to enter name to scoreboard
 function displayScore() {
     document.getElementById("quiz").style.display = "none";
-    document.getElementById("submit-score").style.display= "show";
+    document.querySelector(".form-group").style.display= "inline";
     userScoreEl.textContent = "Your final score is " + secondsLeft + ".";
 }
 
